@@ -1,0 +1,174 @@
+/* developer styles go here */
+
+/* header {
+    background: rgb(48,82,111);
+    background: linear-gradient(0deg, rgba(48,82,111,1) 0%, rgba(19,43,63,1) 100%);
+}
+dropdown bkg colour #30526f */
+
+header img {
+    width: 64px;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul { 
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav {
+    background: rgb(48,82,111);
+    background: linear-gradient(0deg, rgba(48,82,111,1) 0%, rgba(19,43,63,1) 100%);
+}
+.item a  {
+    display: block;
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 1rem;
+    border-left: 4px solid rgba(0, 0, 0, 0);
+}
+
+.logo {
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.item {
+    color: black;
+    display: none;
+    cursor: pointer;
+}
+
+.item a {
+    color: white;
+}
+
+.active .item {
+    display: block;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu-active .submenu {
+    display: block;
+}
+
+
+nav a:hover {
+     border-left: 4px solid #f7d874;
+}
+
+/* nav .logo {
+    /* display: block; */
+ 
+
+.subitem a {
+    padding-left: 2rem;
+}
+
+nav .item {
+    position: relative;
+}
+
+.toggle {
+    fill: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+
+@media(min-width:600px) {
+
+    .toggle {
+        display: none;
+    }
+
+    .item {
+        display: block;
+    }
+
+    /* .submenu {
+        display: none;
+    } */
+    
+    
+    
+    .menu {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .submenu {
+        display: none;
+        position: absolute;
+        text-align: left;
+    }
+   .item:hover .submenu {
+        display: block; 
+    }
+    
+    /* .has-submenu:hover > .subitem {
+        display: block;
+    }  */
+    nav li {
+        flex-grow: 1        ;
+    }
+    nav a {
+        border: none;
+    }
+    nav a:hover {
+        border: none;
+    }
+    nav ul ul a { 
+        padding-left: 1rem;
+    }
+
+    nav ul ul ul{
+        left: 100%;
+        top: 0;
+    }
+
+}
+
+@media(min-width: 750px) {
+    nav a { white-space: nowrap ;}
+}
+
+
+/* nav {
+    background-color: aqua;
+}
+nav .menu {
+    background-color: bisque;
+}
+nav .item {
+    background-color: greenyellow;
+}
+nav .has-submenu {
+    background-color: crimson;
+}
+nav .subitem {
+    background-color: darkorchid;
+}
+ul ul ul {
+    background-color: yellow;
+    border: 1px solid red;
+} */
